@@ -1,0 +1,14 @@
+/* JavaFX CSS - Leave this comment until you have at least create one rule which uses -fx-Property */
+.button{
+-fx-background-color:  #BA2E49; /*rgb(63,42,99);    /* #324678  rgb(50,70,120)  BLUE   #EAE1F3 ROSE rgb(43,28,66) violet fonce rgb(63,42,99) violet moyen rgb(113,86,221) violet clair #044E54 vert fonc� */
+-fx-background-radius:  5px;
+-fx-text-fill: white; 
+}
+.button:hover{
+-fx-background-color: #800000; /*rgb(43,28,66);*/
+-fx-cursor:hand;
+-fx-effect:dropshadow( three-pass-box, rgba(0,0,0,0.8), 10,0,0,0);
+}
+.button:pressed {
+-fx-background-color: #FF0000; /*rgb(113,86,221);*/
+}
